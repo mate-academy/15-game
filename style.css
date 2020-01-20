@@ -1,0 +1,23 @@
+.field {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
